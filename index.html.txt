@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catálogo - Catalago da Andreia</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f5;
+      margin: 0;
+      padding: 20px;
+    }
+    header {
+      background-color: #6A0572;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      border-radius: 10px;
+    }
+    .produto {
+      background: white;
+      padding: 15px;
+      margin: 20px 0;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .produto h2 {
+      margin-top: 0;
+    }
+    .produto p {
+      font-size: 18px;
+      margin: 5px 0 15px;
+    }
+    .botao {
+      background: #25D366;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .botao:hover {
+      background: #1ebd5b;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🍧 Catálogo da Andreia</h1>
+    <p>Escolha seu açaí favorito e faça o pedido pelo WhatsApp!</p>
+  </header>
+
+  <div class="produto">
+    <h2>Açaí Tradicional 500ml</h2>
+    <p>R$ 14,90</p>
+    <a class="botao" href="https://wa.me/5599999999999?text=Quero%20fazer%20o%20pedido%20de%20Açaí%20Tradicional%20500ml" target="_blank">🛒 Pedir pelo WhatsApp</a>
+  </div>
+
+  <div class="produto">
+    <h2>Açaí com Leite Ninho 700ml</h2>
+    <p>R$ 19,90</p>
+    <a class="botao" href="https://wa.me/5599999999999?text=Gostaria%20de%20pedir%20Açaí%20com%20Leite%20Ninho%20700ml" target="_blank">🛒 Pedir pelo WhatsApp</a>
+  </div>
+
+  <div class="produto">
+    <h2>Barca de Açaí Família</h2>
+    <p>R$ 34,90</p>
+    <a class="botao" href="https://wa.me/5599999999999?text=Pedido%20de%20Barca%20de%20Açaí%20Família" target="_blank">🛒 Pedir pelo WhatsApp</a>
+  </div>
+
+</body>
+</html>
